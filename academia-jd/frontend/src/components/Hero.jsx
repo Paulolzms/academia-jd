@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section 
       id="inicio" 
-      className="bg-[url('/bg-gym.jpg')] bg-cover bg-center h-[500px] flex items-center justify-center text-white"
+      className="bg-[url('./public/bg-gym.jpg')] bg-cover bg-center h-[500px] flex items-center justify-center text-white"
     >
       <motion.div 
         className="bg-black bg-opacity-70 p-8 rounded-xl text-center text-white"  
