@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <header className="bg-gray-900 text-white p-4 flex justify-between items-center">
-      <h1 className="text-2xl font-bold">Academia JD</h1>
+      <h1 className="text-2xl font-bold">Academia <span className="text-secondary">JD</span></h1>
       <nav className="space-x-4">
         <a href="#inicio" className="hover:text-yellow-400">Inicio</a>
         <a href="#servicos" className="hover:text-yellow-400">Serviços</a>

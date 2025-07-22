@@ -6,7 +6,13 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#FFD700",     // Amarelo
+        secondary: "#DC2626",   // Vermelho
+        dark: "#111111",        // Preto
+      }
+    },
   },
   plugins: [],
 }
