@@ -37,7 +37,7 @@ export default function ServicesSection() {
         ))}
       </div>
       <motion.div
-      className="bg-zinc-800 rounded-2xl mt-8 p-6 shadow-lg hover:scale-105 hover:shadow-yellow-500/30 transition duration-300 border-t-4 border-yellow-500"
+      className="bg-zinc-800 rounded-2xl max-w-6xl mx-auto flex flex-col items-center mt-8 p-6 shadow-lg hover:scale-105 hover:shadow-yellow-500/30 transition duration-300 border-t-4 border-yellow-500"
       whileHover={{ y: -5 }}
       >
         <div className="text-secondary mb-10"><Users2 size={48} /></div>

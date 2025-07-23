@@ -8,14 +8,14 @@ export default function Footer() {
         {/* Endereço */}
         <div>
           <h3 className="font-bold mb-2">ENDEREÇO</h3>
-          <p>Academia JD<br />Rua Exemplo, 123<br />Rio Piracicaba - MG</p>
+          <p>Academia JD<br />Rua Duque de Caxias, 62 - Loja I<br />Rio Piracicaba - MG</p>
         </div>
 
         {/* Horários */}
         <div>
           <h3 className="font-bold mb-2">HORÁRIOS:</h3>
-          <p>Seg a Sex <span className="font-bold text-yellow-400">07–22h</span></p>
-          <p>Sábado <span className="font-bold text-red-500">10–12h</span></p>
+          <p>Seg a Sex <span className="font-bold text-yellow-400">06–22h</span></p>
+          <p>Sábado <span className="font-bold text-red-500">08–12h</span></p>
           <p>Domingo <span className="font-bold text-yellow-400">Fechado</span></p>
           <p className="text-xs mt-2 italic">* Horários especiais em feriados e eventos</p>
         </div>

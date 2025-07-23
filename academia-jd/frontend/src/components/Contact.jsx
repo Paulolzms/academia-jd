@@ -43,7 +43,7 @@ export default function Contact() {
           onChange={(e) => setForm({ ...form, message: e.target.value })}
           className="p-3 rounded border dark:bg-gray-800"
         />
-        <button className="bg-primary hover:bg-yellow-500 text-white py-2 px-4 rounded w-fit">
+        <button className="bg-primary hover:bg-yellow-500 text-black font-bold py-2 w-full rounded-full transition duration-300">
           Enviar
         </button>
       </form>
