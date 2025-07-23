@@ -6,6 +6,8 @@ import Plans from "./components/Plans";
 import Footer from "./components/Footer";
 import SponsorCarousel from "./components/SponsorCarousel";
 import Contact from "./components/Contact";
+import Map from "./components/Map";
+
 
 export default function App() {
   return (
@@ -17,6 +19,7 @@ export default function App() {
       <Plans />
       <Contact />
       <SponsorCarousel />
+      <Map />
       <Footer />
     </div>
   );
