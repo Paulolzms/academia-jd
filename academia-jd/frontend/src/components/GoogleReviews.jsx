@@ -5,20 +5,20 @@ import { motion } from "framer-motion";
 
 const reviews = [
   {
-    name: "Maria S.",
-    text: "Academia excelente! Ótimos equipamentos e equipe super atenciosa.",
+    name: "Diego S.",
+    text: "Honestissima academia, ótimos equipamentos, boa localização e ótimos profissionais. Recomendo",
   },
   {
-    name: "Carlos F.",
-    text: "Ambiente limpo, organizado e com boa ventilação. Recomendo muito!",
+    name: "Rogerio I.",
+    text: "Minha segunda casa melhor lugar pra aliviar a mente e crescer! Atendimento ótimo.",
   },
   {
-    name: "Juliana M.",
-    text: "Professores preparados e atendimento nota 10. Melhor da cidade!",
+    name: "Maryana V.",
+    text: "Academia completa, bons profissionais e um atendimento diferenciado",
   },
   {
-    name: "Eduardo T.",
-    text: "Super completa e com ótima localização. Adoro treinar aqui.",
+    name: "Luan C.",
+    text: "Excelente atendimento e acompanhamento dos professores.",
   },
 ];
 
@@ -75,7 +75,7 @@ export default function GoogleReviewsSection() {
             </div>
 
             {/* Total de avaliações */}
-            <p className="text-sm text-gray-400">125 avaliações no Google</p>
+            <p className="text-sm text-gray-400">30 avaliações no Google</p>
 
             {/* Link para o Maps */}
             <a

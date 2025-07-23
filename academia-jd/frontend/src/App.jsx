@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import GoogleReviews from "./components/GoogleReviews";
 import Plans from "./components/Plans";
 import Footer from "./components/Footer";
+import SponsorCarousel from "./components/SponsorCarousel";
 import Contact from "./components/Contact";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <GoogleReviews />
       <Plans />
       <Contact />
+      <SponsorCarousel />
       <Footer />
     </div>
   );
