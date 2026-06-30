@@ -6,7 +6,7 @@ export default function Hero() {
       id="inicio" 
       className="bg-[url('./public/bg-gym.jpg')] bg-cover bg-center h-screen flex items-center justify-start px-10 text-white relative"
     >
-<div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-transparent"></div>
       <motion.div 
         className="bg-black/50 backdrop-blur-md max-w-2xl p-12 border-l-4 border-yellow-500 rounded-xl text-left text-white relative z-10"  
         initial={{ opacity: 0, y: 50}}
